@@ -1,0 +1,74 @@
+
+#search-city{
+  width:80%;
+ 
+}
+.uv-severe{
+    background-color: rgb(255, 32, 32);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+  }
+.uv-favorable{
+  background-color: rgb(47, 255, 47);
+  border-radius: 5px;
+  color:rgb(255, 255, 255);
+}
+
+.uv-moderate{
+  background-color: orange;
+  border-radius: 5px;
+  color:rgb(255, 255, 255) ;
+}
+#search-button-icon{
+    width:50px;
+    
+  
+  }
+
+  .jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+  }
+
+  
+#current-weather {
+  padding-left: 15px;
+}
+
+
+#clear-storage{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font: 30PX;;
+  margin: .5em 0em 0em .5em;
+  margin-left: 20%;
+}
+
+
+.weather-card{
+    
+  width: 50rem;
+  background-color: #1c1a38;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+  #search-city{
+      width:100%;
+  }
+  #search-button{
+      width:100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+
+  #fiveDayForecastUl{
+      justify-content: center;
+  }
+}
